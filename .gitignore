@@ -1,3 +1,5 @@
 .env
 projenv/
 db.sqlite3
+myapp/__pycache__/
+myproj/__pycache__/
