@@ -1,0 +1,8 @@
+
+### updating and building new image.
+
+docker build --tag python-django .
+
+
+### running the web image if port has not been specified on or not created docker-compose file
+docker run --publish 8000:8000 python-django
